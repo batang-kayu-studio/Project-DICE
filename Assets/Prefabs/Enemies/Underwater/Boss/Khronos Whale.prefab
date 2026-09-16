@@ -13,16 +13,28 @@ PrefabInstance:
       value: Khronos Whale
       objectReference: {fileID: 0}
     - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05476612
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.072100095
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7013371
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.18
       objectReference: {fileID: 0}
     - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -9.3
       objectReference: {fileID: 0}
     - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
       propertyPath: m_LocalRotation.w

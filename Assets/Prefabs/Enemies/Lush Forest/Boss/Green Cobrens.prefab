@@ -13,16 +13,28 @@ PrefabInstance:
       value: Green Cobrens
       objectReference: {fileID: 0}
     - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15705086
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.20675892
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.0112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.13
       objectReference: {fileID: 0}
     - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -9.3
       objectReference: {fileID: 0}
     - target: {fileID: 6584160454988353201, guid: 10894fb0f21384c6aac04bb9b03deda8, type: 3}
       propertyPath: m_LocalRotation.w
