@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wispia
+  m_Controller: {fileID: 9100000, guid: 9d9ccae7802e646f9aac6b8f31fe6180, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e2f1a6ea33031443fb03df4b7297dc6d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ddbbef01684ba4d0c9db67d92949898f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1ec500bd5a6f94884bbee8d953ca3e2f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ea4d97179eee343b7a4e18d760ecad07, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d1a01cbb51e8145eca49fcfcef27faf7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 277a5da4c8cf24b828678821fc4a668c, type: 2}

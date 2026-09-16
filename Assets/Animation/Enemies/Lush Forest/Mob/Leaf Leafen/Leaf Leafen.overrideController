@@ -8,4 +8,10 @@ AnimatorOverrideController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Leaf Leafen
   m_Controller: {fileID: 9100000, guid: 9d9ccae7802e646f9aac6b8f31fe6180, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e2f1a6ea33031443fb03df4b7297dc6d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eef6a0640cebb40dfbdcaba6cfe8f73b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1ec500bd5a6f94884bbee8d953ca3e2f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a6f925291c5da423ca2cb780911f2c53, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d1a01cbb51e8145eca49fcfcef27faf7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0ce0a20f9ba304ba293b55dbe588c961, type: 2}
