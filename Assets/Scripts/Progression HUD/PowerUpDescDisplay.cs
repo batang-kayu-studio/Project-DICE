@@ -34,6 +34,13 @@ public class PowerUpDescDisplay : MonoBehaviour
 
     private void OnClicked()
     {
-        manager.ShowDescription(data);
+        if (IsEquipped)
+        {
+            manager.ShowDescription(data);
+        }
+        else
+        {
+            manager.OnEmptySlotClicked(this);
+        }
     }
 }

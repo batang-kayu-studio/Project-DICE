@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 460ddf419d59a4eeea7067cc6ec4e93f, type: 3}
   m_Name: +1 Value
   m_EditorClassIdentifier: Assembly-CSharp::PowerUpData
-  icon: {fileID: 0}
-  description: 
+  icon: {fileID: 715380311, guid: ca39c623950c641d5a372cc6743bc19f, type: 3}
+  description: +1 value to this dice face
   category: 0

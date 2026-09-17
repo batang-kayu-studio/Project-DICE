@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 460ddf419d59a4eeea7067cc6ec4e93f, type: 3}
   m_Name: +1 Progress
   m_EditorClassIdentifier: Assembly-CSharp::PowerUpData
-  icon: {fileID: 0}
-  description: 
+  icon: {fileID: -1214239016, guid: 60bdd675ff4db495aaf5e8d2a9eecc29, type: 3}
+  description: Delay enemy's progress bar by 1
   category: 0

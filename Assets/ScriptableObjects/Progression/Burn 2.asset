@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 460ddf419d59a4eeea7067cc6ec4e93f, type: 3}
   m_Name: Burn 2
   m_EditorClassIdentifier: Assembly-CSharp::PowerUpData
-  icon: {fileID: 0}
-  description: 
+  icon: {fileID: -1865752472, guid: a6ad319bf08874ae19fdf9c6c8e31893, type: 3}
+  description: Burn enemy by 2 for every subsequent swipe this turn
   category: 0

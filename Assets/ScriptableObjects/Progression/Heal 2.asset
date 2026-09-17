@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 460ddf419d59a4eeea7067cc6ec4e93f, type: 3}
   m_Name: Heal 2
   m_EditorClassIdentifier: Assembly-CSharp::PowerUpData
-  icon: {fileID: 0}
-  description: 
+  icon: {fileID: -1641100410, guid: 3c3b94315182548e4bc1839a31aabcba, type: 3}
+  description: Heal 2 for every subsequent swipe this turn
   category: 0

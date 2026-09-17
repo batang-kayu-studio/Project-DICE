@@ -31,6 +31,29 @@ public class PowerUpEquipmentManager : MonoBehaviour
     [SerializeField] private Image iconImage;
     [SerializeField] private TextMeshProUGUI descriptionText;
 
+    // Set by LevelUpScreen when the player picks a power up, waiting to be
+    // placed on whichever empty slot the player taps next.
+    private PowerUpData pendingPowerUp;
+
+    /// <summary>Called by LevelUpScreen after the player selects a power up.</summary>
+    public void SetPendingPowerUp(PowerUpData data)
+    {
+        pendingPowerUp = data;
+    }
+
+    /// <summary>Called by PowerUpDescDisplay when an empty (unequipped) slot is clicked.</summary>
+    public void OnEmptySlotClicked(PowerUpDescDisplay slot)
+    {
+        if (pendingPowerUp == null)
+        {
+            Debug.Log("[PowerUpEquipmentManager] Empty slot clicked, but no power up is pending to equip.");
+            return;
+        }
+
+        slot.Setup(pendingPowerUp, this);
+        pendingPowerUp = null;
+    }
+
     /// <summary>
     /// Equips a random power up from the database into the next empty slot
     /// on the given dice face. Does nothing (logs a warning) if that face is full.

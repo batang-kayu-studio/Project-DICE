@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 460ddf419d59a4eeea7067cc6ec4e93f, type: 3}
   m_Name: Next Swipe Guard
   m_EditorClassIdentifier: Assembly-CSharp::PowerUpData
-  icon: {fileID: 0}
-  description: 
+  icon: {fileID: 1029108286, guid: e4155aa8d02fa49bc820acc22ec9dd83, type: 3}
+  description: The next swipe this turn will be a guard
   category: 0
