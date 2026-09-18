@@ -35,6 +35,20 @@ public class PowerUpEquipmentManager : MonoBehaviour
     // placed on whichever empty slot the player taps next.
     private PowerUpData pendingPowerUp;
 
+    void Awake()
+    {
+        // Give every slot (equipped or empty) its manager reference upfront,
+        // so empty slots work correctly the first time they're clicked.
+        foreach (FaceSlots face in faces)
+        {
+            if (face == null) continue;
+            foreach (PowerUpDescDisplay slot in face.slots)
+            {
+                if (slot != null) slot.Initialize(this);
+            }
+        }
+    }
+
     /// <summary>Called by LevelUpScreen after the player selects a power up.</summary>
     public void SetPendingPowerUp(PowerUpData data)
     {
@@ -50,7 +64,7 @@ public class PowerUpEquipmentManager : MonoBehaviour
             return;
         }
 
-        slot.Setup(pendingPowerUp, this);
+        slot.Setup(pendingPowerUp);
         pendingPowerUp = null;
     }
 
@@ -80,7 +94,7 @@ public class PowerUpEquipmentManager : MonoBehaviour
         }
 
         PowerUpData randomPowerUp = allPowerUps[UnityEngine.Random.Range(0, allPowerUps.Count)];
-        targetSlot.Setup(randomPowerUp, this);
+        targetSlot.Setup(randomPowerUp);
     }
 
     private PowerUpDescDisplay FindNextEmptySlot(int faceIndex)

@@ -21,13 +21,19 @@ public class PowerUpDescDisplay : MonoBehaviour
         GetComponent<Button>().onClick.AddListener(OnClicked);
     }
 
+    /// <summary>Called by PowerUpEquipmentManager on EVERY slot at startup, so even
+    /// empty slots have a valid manager reference before they're ever equipped.</summary>
+    public void Initialize(PowerUpEquipmentManager owningManager)
+    {
+        manager = owningManager;
+    }
+
     /// <summary>True if this slot already has a power up equipped.</summary>
     public bool IsEquipped => data != null;
 
-    public void Setup(PowerUpData powerUpData, PowerUpEquipmentManager owningManager)
+    public void Setup(PowerUpData powerUpData)
     {
         data = powerUpData;
-        manager = owningManager;
         iconImage.sprite = data.icon;
         iconImage.enabled = true;
     }
